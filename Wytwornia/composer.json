@@ -14,7 +14,9 @@
     "autoload" : {
         "psr-0": {
             "About": "module/About/src/",
+            "Album": "module/Album/src/",
             "Band": "module/Band/src/"
+            
         }
     }
 }
