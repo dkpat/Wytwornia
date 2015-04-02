@@ -4,8 +4,7 @@ return array(
     'modules' => array(
         'Application',
         'About',
-        'Band',
-        'Album',
+        'Artist'
     ),
 
     // These are various options for the listeners attached to the ModuleManager
