@@ -14,7 +14,9 @@
     "autoload" : {
         "psr-0": {
             "About": "module/About/src/",
-            "Artist": "module/Artist/src/"
+            "Artist": "module/Artist/src/",
+            "User": "module/User/src/"
         }
     }
+
 }
