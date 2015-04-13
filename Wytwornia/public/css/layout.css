@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-04-6, 09:01:00
+    Author     : Marcin
+*/
+
+.navbar-brand #logo {
+    width: 33px;
+    height: 30px;
+}
+.main-navbar {
+    background-color: #993399;
+    border-radius: 0px !important;
+    top: -60px;
+    min-height: 60px !important;
+}
+.layout-brand {
+    margin-left: 15% !important;
+    color: #000;
+}
+.layout-brand span {
+    position: relative;
+    top: 1px;
+}
+.layout-brand:hover {
+    color: #000;
+    text-shadow: 1px 1px #4c4c4c;
+}
+.layout-brand:focus {
+    color: #999;
+}
+.navbar-menu {
+    margin-left: 10% !important;
+}
+.navbar-menu li a {
+    color: #000;
+    padding-top: 21px !important;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.navbar-menu li a:hover {
+    color: #000;
+    background: none !important;
+    text-shadow: 1px 1px #999;
+}
+.footer-container {
+    min-height: 160px;
+    background-color: #993399;
+}
+.footer-container #rights {
+    color: #FFF;
+    position: relative;
+    top: 83%;
+    text-align: right;
+}
+.footer-row {
+    color: #fff;
+}
+.footer-row h3 {
+    font-size: 18px;
+    text-align: center;
+}
+.footer-row ul {
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-row ul li {
+    list-style-type: none;
+    text-align: center;
+}
+.footer-row ul li a{
+    color: #fff;
+    text-align: left;
+}

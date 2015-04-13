@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-04-6, 12:16:11
+    Author     : Marcin
+*/
+
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      opacity: 0;
+      transition-property: opacity;
+      height: 400px !important;
+    }
+    .active {
+      opacity: 1;
+    }
+    .active.left,
+    .active.right {
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+  }
+}
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+  height: 100%;
+}
+.carousel-inner .item img {
+    width: 100%;
+    height: 400px !important;
+}
+.carousel-indicators li {
+    border-color: red !important;
+}
+.carousel-indicators .active {
+    background-color: red;
+}
+.carousel_col {
+    margin-bottom: 30px;
+}
